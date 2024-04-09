@@ -1,0 +1,19 @@
+harvester_name: 'roma' #Nome dell'harvester, IMPORTANTE: deve essere uguale all'immagine caricata su Docker Registry. ES: "downloader_messina"
+regione: 'lazio'
+provincia: 'roma'
+comune: 'roma'
+url: 'https://strettodimessina.it/web/societa-trasparente/' #URL fonte
+
+
+default_args_email: 'carlo.pignatiello@expleoitalia.com'
+harveste_description: 'Albo pretorio comune di Roma'
+schedule_interval: '"@daily"'
+
+extra_var0: ''
+extra_var1: ''
+extra_var2: ''
+extra_var3: ''
+extra_var4: ''
+
+#ESEMPIO di extra_var0:
+# extra_var0: '"NOME_ENV_VAR": "VALORE_ENV_VAR"'
