@@ -2,7 +2,7 @@ harvester_name: 'roma' #Nome dell'harvester, IMPORTANTE: deve essere uguale all'
 regione: 'lazio'
 provincia: 'roma'
 comune: 'roma'
-url: 'https://strettodimessina.it/web/societa-trasparente/' #URL fonte
+url: 'https://https://www.comune.roma.it/gedalbonet/' #URL fonte
 
 
 default_args_email: 'carlo.pignatiello@expleoitalia.com'
@@ -16,4 +16,3 @@ extra_var3: ''
 extra_var4: ''
 
 #ESEMPIO di extra_var0:
-# extra_var0: '"NOME_ENV_VAR": "VALORE_ENV_VAR"'
