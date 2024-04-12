@@ -1,20 +1,48 @@
 import psycopg2
+from minio import Minio
+from dotenv import load_dotenv
+import os
 
 class Dao:
+
     def __init__(self):
-        self.conn = psycopg2.connect(
-            dbname="italia-trasparente",
-            user="harvester",
-            password="harvester",
-            host="10.20.4.5",
-            port="30001"
+
+        load_dotenv()
+
+        
+        self.minio_client = Minio(
+            endpoint=os.getenv('MINIO_URL'),
+            access_key=os.getenv('MINIO_ACCESS_KEY'),  # Access key of your MinIO server
+            secret_key=os.getenv('MINIO_SECRET_KEY'),  # Secret key of your MinIO server
+            secure=False,
         )
 
-    def create_doc(self, contenuto, link_pubblico):
+        self.conn = psycopg2.connect(
+            
+            dbname= os.getenv('POSTGRES_DB'),
+            user=os.getenv('POSTGRES_ROOT_USER'),
+            password=os.getenv('POSTGRES_ROOT_PASSWORD'),
+            host=os.getenv('POSTGRES_HOST'),
+            port=os.getenv('POSTGRES_PORT'),
+        )
+
+    def create_doc(self, file_path, contenuto, link_pubblico, n_atto):
         try:
-            sql = """INSERT INTO documenti (contenuto, link_pubblico) VALUES (%s, %s);"""
+            sql = """INSERT INTO documenti (contenuto, link_pubblico, n_atto) VALUES (%s, %s, %s);"""
             with self.conn.cursor() as cursor:
-                cursor.execute(sql, (contenuto, link_pubblico))
+
+                
+
+                try:
+                 self.minio_client.fput_object(
+                    bucket_name="italiatrasparente",
+                    object_name=contenuto,
+                    file_path=file_path
+                )
+                except Exception as e:
+                    raise e
+                cursor.execute(sql, (contenuto, link_pubblico, n_atto))
+
             self.conn.commit()
         except psycopg2.Error as e:
             print(f'Error: {e}')
@@ -31,8 +59,4 @@ class Dao:
     def __del__(self):
         self.conn.close()
 
-# Example usage:
-dao = Dao()
-# dao.create_doc("test", "www.example.com")
-doc = dao.get_doc_by_id("test", "www.example.com")
-print(doc)
+

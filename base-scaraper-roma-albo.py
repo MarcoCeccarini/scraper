@@ -88,5 +88,5 @@ while True:
         next_button.click()
         driver.implicitly_wait(5)
     else:
-        driver.close()
+        # driver.close()
         break
