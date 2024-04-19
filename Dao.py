@@ -18,7 +18,6 @@ class Dao:
         self.nome_sezione = nome_sezione
 
         load_dotenv()
-
         
         self.minio_client = Minio(
             endpoint=os.getenv('MINIO_URL'),
@@ -28,7 +27,6 @@ class Dao:
         )
 
         self.conn = psycopg2.connect(
-            
             dbname= os.getenv('POSTGRES_DB'),
             user=os.getenv('POSTGRES_ROOT_USER'),
             password=os.getenv('POSTGRES_ROOT_PASSWORD'),
@@ -54,18 +52,27 @@ class Dao:
                     self.conn.rollback()
                     raise e
 
-            self.conn.commit()
-        except psycopg2.Error as e:
-            self.logger.error(f'Error: {e}')
+                self.conn.commit()
+        except Exception as e:
+            self.logger.error(f'{e}')
+            raise e
 
-
-    def get_doc_by_id(self, contenuto, link_pubblico):
+    def get_doc(self, contenuto, link_pubblico):
         sql = """SELECT * FROM documenti WHERE contenuto = %s AND link_pubblico = %s;"""
         with self.conn.cursor() as cursor:
             cursor.execute(sql, (contenuto, link_pubblico))
             return cursor.fetchone()
-
-    # Add more methods for other CRUD operations as needed
+        
+    def delete_doc(self, contenuto, link_pubblico):
+        sql = """DELETE * FROM documenti WHERE contenuto = %s AND link_pubblico = %s;"""
+        with self.conn.cursor() as cursor:
+            try:
+                cursor.execute(sql, (contenuto, link_pubblico))
+                self.conn.commit()
+            except Exception as e:
+                self.conn.rollback()
+            raise e
+            
 
     def __del__(self):
         self.conn.close()

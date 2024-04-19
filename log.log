@@ -1,0 +1,89 @@
+2024-04-19 11:42:29,248 - ERROR - tuple indices must be integers or slices, not str
+2024-04-19 11:47:54,857 - ERROR - tuple indices must be integers or slices, not str
+2024-04-19 11:49:04,521 - ERROR - tuple indices must be integers or slices, not str
+2024-04-19 12:01:47,451 - base_logger - ERROR - This is an error message
+2024-04-19 12:01:47,451 - base_logger - CRITICAL - This is a critical message
+2024-04-19 12:31:49,836 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:31:50,439 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:32:01,613 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:32:12,563 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:32:23,708 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:32:34,762 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:32:45,829 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:32:56,952 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:33:07,954 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:33:08,500 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:33:19,482 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:33:30,659 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:33:41,866 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:33:53,195 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:34:04,159 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:34:04,807 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:34:05,295 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:34:05,780 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:34:06,258 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:34:06,743 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:34:17,914 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:34:38,495 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:34:39,097 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:34:50,177 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:35:01,029 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:35:12,076 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:35:23,211 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:35:34,262 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:36:05,244 - Albo - ERROR - time data '24/06/2022' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:36:05,821 - Albo - ERROR - time data '24/06/2022' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:36:16,972 - Albo - ERROR - time data '05/07/2022' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:36:27,914 - Albo - ERROR - time data '04/08/2022' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:36:39,083 - Albo - ERROR - time data '11/08/2022' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:36:50,224 - Albo - ERROR - time data '11/08/2022' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:37:01,246 - Albo - ERROR - time data '23/08/2022' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:37:12,271 - Albo - ERROR - time data '23/08/2022' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:37:23,231 - Albo - ERROR - time data '06/09/2022' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:37:23,803 - Albo - ERROR - time data '06/09/2022' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:37:34,712 - Albo - ERROR - time data '16/09/2022' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:37:46,266 - Albo - ERROR - time data '25/10/2022' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:37:57,419 - Albo - ERROR - time data '12/12/2022' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:38:08,684 - Albo - ERROR - time data '17/01/2023' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:38:19,666 - Albo - ERROR - time data '20/01/2023' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:38:20,238 - Albo - ERROR - time data '20/01/2023' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:38:20,725 - Albo - ERROR - time data '20/01/2023' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:38:21,190 - Albo - ERROR - time data '20/01/2023' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:38:21,714 - Albo - ERROR - time data '20/01/2023' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:38:22,169 - Albo - ERROR - time data '20/01/2023' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:38:33,262 - Albo - ERROR - time data '28/03/2023' does not match format '%d/%m/%Y %H:%M:%S'
+2024-04-19 12:48:04,360 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:48:04,871 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:48:16,117 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:48:27,093 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:48:38,230 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:48:49,365 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:49:00,470 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:49:11,599 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:49:22,531 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:49:23,043 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:49:34,027 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:49:45,136 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:49:56,277 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:50:07,426 - Albo - ERROR - can't compare datetime.datetime to datetime.date
+2024-04-19 12:53:04,426 - Albo - ERROR - 'datetime.date' object has no attribute 'date'
+2024-04-19 12:53:04,968 - Albo - ERROR - 'datetime.date' object has no attribute 'date'
+2024-04-19 12:53:16,143 - Albo - ERROR - 'datetime.date' object has no attribute 'date'
+2024-04-19 12:53:27,223 - Albo - ERROR - 'datetime.date' object has no attribute 'date'
+2024-04-19 12:53:38,402 - Albo - ERROR - 'datetime.date' object has no attribute 'date'
+2024-04-19 12:53:49,512 - Albo - ERROR - 'datetime.date' object has no attribute 'date'
+2024-04-19 12:54:00,630 - Albo - ERROR - 'datetime.date' object has no attribute 'date'
+2024-04-19 12:54:11,865 - Albo - ERROR - 'datetime.date' object has no attribute 'date'
+2024-04-19 12:54:22,813 - Albo - ERROR - 'datetime.date' object has no attribute 'date'
+2024-04-19 12:54:23,442 - Albo - ERROR - 'datetime.date' object has no attribute 'date'
+2024-04-19 12:54:34,535 - Albo - ERROR - 'datetime.date' object has no attribute 'date'
+2024-04-19 14:29:57,004 - Albo - ERROR - 'Dao' object has no attribute 'get_doc_by_id'
+2024-04-19 14:30:08,086 - Albo - ERROR - 'Dao' object has no attribute 'get_doc_by_id'
+2024-04-19 14:30:19,199 - Albo - ERROR - 'Dao' object has no attribute 'get_doc_by_id'
+2024-04-19 14:30:30,331 - Albo - ERROR - 'Dao' object has no attribute 'get_doc_by_id'
+2024-04-19 14:30:41,371 - Albo - ERROR - 'Dao' object has no attribute 'get_doc_by_id'
+2024-04-19 14:30:52,636 - Albo - ERROR - 'Dao' object has no attribute 'get_doc_by_id'
+2024-04-19 14:31:03,630 - Albo - ERROR - 'Dao' object has no attribute 'get_doc_by_id'
+2024-04-19 14:31:04,111 - Albo - ERROR - 'Dao' object has no attribute 'get_doc_by_id'
+2024-04-19 14:31:15,166 - Albo - ERROR - 'Dao' object has no attribute 'get_doc_by_id'
+2024-04-19 14:31:26,132 - Albo - ERROR - 'Dao' object has no attribute 'get_doc_by_id'
