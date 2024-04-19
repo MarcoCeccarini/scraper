@@ -2,10 +2,20 @@ import psycopg2
 from minio import Minio
 from dotenv import load_dotenv
 import os
+from datetime import datetime
+import logging
+
 
 class Dao:
 
-    def __init__(self):
+    def __init__(self, id_struttura, nome_pa, id_sezione, nome_sezione):
+
+        self.logger = logging.getLogger(f'{self.__class__.__name__}')
+
+        self.id_struttura = id_struttura
+        self.id_sezione = id_sezione
+        self.nome_pa = nome_pa
+        self.nome_sezione = nome_sezione
 
         load_dotenv()
 
@@ -26,26 +36,27 @@ class Dao:
             port=os.getenv('POSTGRES_PORT'),
         )
 
-    def create_doc(self, file_path, contenuto, link_pubblico, n_atto):
+    def create_doc(self, dir, file_path, contenuto, link_pubblico, n_atto, utente_data_inserimento, utente_data_fine_val):
         try:
-            sql = """INSERT INTO documenti (contenuto, link_pubblico, n_atto) VALUES (%s, %s, %s);"""
+            sql = """INSERT INTO documenti (contenuto, link_pubblico, path_privato, desc_flower, n_atto, utente_data_inserimento, utente_data_fine_val, ammin_data_inserimento, id_sezione, id_struttura)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s);"""
             with self.conn.cursor() as cursor:
 
-                
+                cursor.execute(sql, (contenuto, link_pubblico, file_path, None, n_atto, utente_data_inserimento, utente_data_fine_val, datetime.today().date(), self.id_sezione, self.id_struttura))
 
                 try:
                  self.minio_client.fput_object(
-                    bucket_name="italiatrasparente",
-                    object_name=contenuto,
+                    bucket_name="italiatrasparente-dev",
+                    object_name=dir+"/"+contenuto,
                     file_path=file_path
                 )
                 except Exception as e:
+                    self.conn.rollback()
                     raise e
-                cursor.execute(sql, (contenuto, link_pubblico, n_atto))
 
             self.conn.commit()
         except psycopg2.Error as e:
-            print(f'Error: {e}')
+            self.logger.error(f'Error: {e}')
 
 
     def get_doc_by_id(self, contenuto, link_pubblico):

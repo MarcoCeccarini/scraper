@@ -16,96 +16,171 @@ from dao import Dao
 import requests
 import base64
 import json
+from pathlib import Path
+from datetime import datetime
+import logging
 
-dao = Dao()
-numero_atto_tds = []
-payloads =[]
-headers={
-    'Content-type':'application/json', 
-    'Accept':'application/json'
-}
-url = "https://www.comune.roma.it/gedalbonet/restgwb/api/gwalbopretorioonline/gestionepubblicazioneao/selezionepubblicazione"
+class Albo:
 
+    def __init__(self):
 
-chrome_driver = ChromeDriverManager().install()
-driver = Chrome(service=Service(chrome_driver)) 
-driver.implicitly_wait(30)
-driver.set_page_load_timeout(30) 
-
-driver.get("https://www.comune.roma.it/gedalbonet/")
-driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
-
-# while True:
-
-print(driver.find_element(By.CLASS_NAME, 'react-bootstrap-table-pagination-total').text)
-
-rows_number = len(driver.find_elements(By.XPATH, "//button[contains(text(), 'Dettaglio')]")) 
-
-sel_idx = 0
-while sel_idx < rows_number:
+        self.read_count = 0
+        self.write_count = 0
+        self.double_skipped_count = 0
+        self.error_count = 0
         
-    print('['+str(sel_idx)+']/'+str(rows_number))
+        # Create a logger
+        self.logger = logging.getLogger(f'{self.__class__.__name__}')
+        self.logger.setLevel(logging.DEBUG)
 
-    driver.find_elements(By.XPATH, "//button[contains(text(), 'Dettaglio')]")[sel_idx].click()
-    
-    time.sleep(5)        
+        # Create console handler and set level to debug
+        console_handler = logging.StreamHandler()
+        console_handler.setLevel(logging.DEBUG)
 
-    sel_idx += 1    
-    
-    atto_label = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="main"]/form/div/div[1]/div/div/div[2]/div/div[1]/div/div/div[1]/div[2]/label')))
+        # Create file handler and set level to error
+        file_handler = logging.FileHandler('log.log')
+        file_handler.setLevel(logging.ERROR)
 
+        # Create formatter
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        console_handler.setFormatter(formatter)
+        file_handler.setFormatter(formatter)
 
-    for atto_idx in range(len(driver.find_elements(By.XPATH,'//*[@id="idListaAllegati"]/tbody//tr/td[1]'))):
+        # Add console handler and file handler to logger
+        self.logger.addHandler(console_handler)
+        self.logger.addHandler(file_handler)
 
-        numero_atto_td = driver.find_elements(By.XPATH,'//*[@id="idListaAllegati"]/tbody//tr/td[1]')[atto_idx]
+        # Test the logger
+        self.logger.info('Running...')
 
-        atto_idx +=1
-        
-        print("-"+str(sel_idx)) # "+": #1:"+atto_label.text+",#2:"+numero_atto_td.text+"...: Downloading....")
+    def report(self):
+        self.logger.info("--------------------------------------------")
+        self.logger.info(" JOB COMUNE DI ROMA ALBO PRETORIO")
+        self.logger.info("--------------------------------------------")
+        self.logger.info(f'read..........:{self.read_count}')
+        self.logger.info(f' written........:{self.write_count}')
+        self.logger.info(f' skipped double.:{self.double_skipped_count}')
+        self.logger.info(f' errors.........:{self.error_count}')
+        self.logger.info("--------------------------------------------")
+        self.logger.info('END')
 
-        time.sleep(5)     
-        payload =json.dumps({
-            "idFil": numero_atto_td.text,
-            "idPbl": atto_label.text
-        })
-        
-        response = requests.request("POST", url, headers=headers, data=payload)
+    def run(self):
+                
+        dao = Dao("1","COMUNE_DI_ROMA", "201", "ALBO_PRETORIO")
+        headers={
+            'Content-type':'application/json', 
+            'Accept':'application/json'
+        }
+        url = "https://www.comune.roma.it/gedalbonet/restgwb/api/gwalbopretorioonline/gestionepubblicazioneao/selezionepubblicazione"
+        level = "sottosezione-lv1"
 
-        try:
-            if response.status_code == 200:
+        chrome_driver = ChromeDriverManager().install()
+        driver = Chrome(service=Service(chrome_driver)) 
+        driver.implicitly_wait(30)
+        driver.set_page_load_timeout(30) 
 
-                res = response.json()
+        driver.get("https://www.comune.roma.it/gedalbonet/")
+        driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
 
-                file_name = res['payload']['nomFil']
+        # while True:
 
-                base64_content = res['payload']['base64File']
+        self.logger.info(driver.find_element(By.CLASS_NAME, 'react-bootstrap-table-pagination-total').text)
 
-                base64_data = base64_content.split(',')[1]
+        rows_number = len(driver.find_elements(By.XPATH, "//button[contains(text(), 'Dettaglio')]")) 
 
-                file_content = base64.b64decode(base64_data)
-
-                file_path = file_name
-
-                with open(file_path, 'wb') as f:
-                    f.write(file_content)
-                dao.create_doc(file_path,file_name, url+payload, numero_atto_td.text)
-            else:
-                print(f"Request failed with status code: {response.status_code}")
-        except Exception as e:
-                print(f"An error occurred: {str(e)}")
-        print(file_name)
-             
-        driver.back() 
-'''            
-if driver.find_element(By.XPATH, "//button[contains(text(), '>')]").get_attribute('class').find('enabled') != -1:
-    driver.find_element(By.XPATH, "//button[contains(text(), '>')]").click()
-else:
-    if driver.find_element(By.XPATH, "//button[contains(text(), '>>')]").get_attribute('class').find('enabled') != -1:
-        driver.find_element(By.XPATH, "//button[contains(text(), '>>')]").click()
-        time.sleep(15)
-
-if(driver.find_element(By.XPATH, "//button[contains(text(), '>')]").get_attribute('class').find('enabled') == -1
-    & driver.find_element(By.XPATH, "//button[contains(text(), '>>')]").get_attribute('class').find('enabled') == -1 ):
-'''       
-#    break 
+        sel_idx = 6
+        while sel_idx < rows_number:
             
+            self.logger.info('['+str(sel_idx)+']/'+str(rows_number))
+
+            driver.find_elements(By.XPATH, "//button[contains(text(), 'Dettaglio')]")[sel_idx].click()
+            driver.refresh()
+            time.sleep(5)        
+
+            sel_idx += 1    
+            
+            n_atto = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="main"]/form/div/div[1]/div/div/div[2]/div/div[1]/div/div/div[1]/div[2]/label'))).text
+
+            utente_data_inserimento = driver.find_element(By.XPATH, '//*[@id="main"]/form/div/div[1]/div/div/div[2]/div/div[1]/div/div/div[6]/div[2]/label').text
+
+            utente_data_fine_val = driver.find_element(By.XPATH, '//*[@id="main"]/form/div/div[1]/div/div/div[2]/div/div[1]/div/div/div[7]/div[2]/label').text
+
+            atto_idx = 0
+            for atto_tr in driver.find_elements(By.XPATH,'//*[@id="idListaAllegati"]/tbody//tr'):
+
+                self.read_count += 1                
+
+                atto_idx +=1
+
+                n_doc =  atto_tr.find_element(By.XPATH,'.//td[1]').text
+                contenuto =  atto_tr.find_element(By.XPATH,'.//td[2]').text
+
+
+                payload =json.dumps({
+                    "idFil": n_doc,
+                    "idPbl": n_atto
+                })
+                
+                response = requests.request("POST", url, headers=headers, data=payload)
+
+                try:
+                    if response.status_code == 200:
+
+                        res = response.json()
+
+                        file_name = res['payload']['nomFil'] # real filename
+
+                        base64_content = res['payload']['base64File']
+
+                        base64_data = base64_content.split(',')[1]
+
+                        file_content = base64.b64decode(base64_data)
+
+                        file_path = dao.nome_pa+"/"+dao.nome_sezione+"/"+contenuto
+
+                        Path(dao.nome_pa+"/"+dao.nome_sezione).mkdir(parents=True, exist_ok=True)
+
+                        with open(file_path, 'wb') as f:
+                            f.write(file_content)
+
+                        last_doc = dao.get_doc_by_id(contenuto=contenuto, link_pubblico=url+payload)    
+
+                        if(last_doc): #skip double
+                            self.logger.debug(last_doc)
+                            if(last_doc[5] <= datetime.strptime(utente_data_inserimento, '%d/%m/%Y').date()):
+                                logging.warning(f"{file_name}: DOUBLE SKIPPED!!!")
+                                self.double_skipped_count +=1
+                                continue
+
+                        dao.create_doc(dir=dao.nome_pa+"/"+dao.nome_sezione,file_path=file_path, contenuto=contenuto, link_pubblico=url+payload, n_atto=n_atto, utente_data_fine_val=datetime.strptime(utente_data_fine_val, '%d/%m/%Y'), utente_data_inserimento=datetime.strptime(utente_data_inserimento, '%d/%m/%Y'))
+
+                        self.write_count +=1
+                    else:
+                        self.logger.warning(f"Request failed with status code: {response.status_code}")
+                        self.logger.warning(f"An error occurred: {str(e)}")
+                        raise e
+                except Exception as e:
+                    self.error_count +=1
+                    self.logger.error(f"{str(e)}")
+                self.logger.debug(file_name)
+                    
+            driver.back() 
+            time.sleep(5)            
+            '''    
+            if driver.find_element(By.XPATH, "//button[contains(text(), '>')]").get_attribute('class').find('enabled') != -1:
+                driver.find_element(By.XPATH, "//button[contains(text(), '>')]").click()
+            else:
+                if driver.find_element(By.XPATH, "//button[contains(text(), '>>')]").get_attribute('class').find('enabled') != -1:
+                    driver.find_element(By.XPATH, "//button[contains(text(), '>>')]").click()
+                    time.sleep(15)
+
+            if(driver.find_element(By.XPATH, "//button[contains(text(), '>')]").get_attribute('class').find('enabled') == -1
+                & driver.find_element(By.XPATH, "//button[contains(text(), '>>')]").get_attribute('class').find('enabled') == -1 ):
+                break 
+                driver.quit()            
+            '''
+
+albo = Albo()
+albo.run()
+albo.report()
+
