@@ -33,6 +33,7 @@ class BaseJob:
         self.driver = Chrome(service=Service(chrome_driver)) 
         self.driver.implicitly_wait(30)
         self.driver.set_page_load_timeout(30) 
+        self.wait = WebDriverWait(self.driver, 20)
 
         self.read_count = 0
         self.write_count = 0

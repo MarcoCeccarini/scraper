@@ -87,3 +87,116 @@
 2024-04-19 14:31:04,111 - Albo - ERROR - 'Dao' object has no attribute 'get_doc_by_id'
 2024-04-19 14:31:15,166 - Albo - ERROR - 'Dao' object has no attribute 'get_doc_by_id'
 2024-04-19 14:31:26,132 - Albo - ERROR - 'Dao' object has no attribute 'get_doc_by_id'
+2024-04-22 16:39:36,731 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:37,290 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:37,651 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:38,060 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:38,545 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:39,023 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:39,417 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:39,841 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:40,257 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:40,740 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:41,901 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:43,089 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:44,427 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:45,680 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:46,063 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:46,462 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:46,900 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:47,601 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:47,991 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:48,397 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:49,149 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:49,592 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:50,071 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:50,508 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:50,905 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:39:51,417 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:24,138 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:24,563 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:24,940 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:25,354 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:25,745 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:26,098 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:26,434 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:26,816 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:27,225 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:27,642 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:28,728 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:29,941 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:31,135 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:32,326 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:32,690 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:33,040 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:33,371 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:33,985 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:34,456 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:34,819 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:35,452 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:35,809 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:36,180 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:36,549 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:36,970 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:40:37,437 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:10,540 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:10,963 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:11,338 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:11,688 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:12,096 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:12,464 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:12,790 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:13,169 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:13,546 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:13,947 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:15,047 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:16,181 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:17,286 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:18,417 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:18,793 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:19,174 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:19,514 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:20,125 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:20,548 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:20,978 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:21,603 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:21,979 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:22,389 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:22,808 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:23,159 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:41:23,542 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:43:52,978 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:30,960 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:31,444 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:31,831 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:32,222 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:32,692 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:33,057 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:33,413 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:33,824 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:34,164 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:34,592 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:35,722 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:36,911 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:38,168 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:39,541 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:39,964 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:40,440 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:40,871 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:41,602 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:42,090 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:42,507 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:43,165 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:43,645 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:44,051 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:44,457 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:44,820 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-22 16:53:45,337 - RomaTrasparenteJob - ERROR - An error occurred: strptime() argument 1 must be str, not datetime.date
+2024-04-23 14:14:52,918 - RomaTrasparenteJob - ERROR - An error occurred: [Errno 2] No such file or directory: 'COMUNE DI ROMA/AMMINISTRAZIONE TRASPARENTE/Piano triennale per la prevenzione della corruzione e della trasparenza/Piano triennale per la prevenzione della corruzione e della trasparenza/RC20200001766-119982521-RA20190082864-119982521.pdf'
+2024-04-23 14:14:53,919 - RomaTrasparenteJob - ERROR - An error occurred: [Errno 2] No such file or directory: 'COMUNE DI ROMA/AMMINISTRAZIONE TRASPARENTE/Piano triennale per la prevenzione della corruzione e della trasparenza/Piano triennale per la prevenzione della corruzione e della trasparenza/DCS_RA9744_2016ResponsabileTrasparenza.pdf'
+2024-04-23 14:14:58,004 - RomaTrasparenteJob - ERROR - An error occurred: [Errno 2] No such file or directory: 'COMUNE DI ROMA/AMMINISTRAZIONE TRASPARENTE/Piano triennale per la prevenzione della corruzione e della trasparenza/Piano triennale per la prevenzione della corruzione e della trasparenza/DCS_RA9744_2016ResponsabileTrasparenza.pdf'
+2024-04-23 14:15:03,266 - RomaTrasparenteJob - ERROR - An error occurred: [Errno 2] No such file or directory: 'COMUNE DI ROMA/AMMINISTRAZIONE TRASPARENTE/Piano triennale per la prevenzione della corruzione e della trasparenza/Piano triennale per la prevenzione della corruzione e della trasparenza/Deliberazione_della_Giunta_Capitolina_n._77_del_21_marzo_2024.pdf'
+2024-04-23 14:15:04,087 - RomaTrasparenteJob - ERROR - An error occurred: [Errno 2] No such file or directory: 'COMUNE DI ROMA/AMMINISTRAZIONE TRASPARENTE/Piano triennale per la prevenzione della corruzione e della trasparenza/Piano triennale per la prevenzione della corruzione e della trasparenza/All_1_Tabella_Valutazione_del_rischio_2024.pdf'
+2024-04-23 14:15:05,575 - RomaTrasparenteJob - ERROR - An error occurred: [Errno 2] No such file or directory: 'COMUNE DI ROMA/AMMINISTRAZIONE TRASPARENTE/Piano triennale per la prevenzione della corruzione e della trasparenza/Piano triennale per la prevenzione della corruzione e della trasparenza/All_3_Registro_e_valutazione_rischi_Appalti_2024.pdf'
+2024-04-23 14:15:06,947 - RomaTrasparenteJob - ERROR - An error occurred: [Errno 2] No such file or directory: 'COMUNE DI ROMA/AMMINISTRAZIONE TRASPARENTE/Piano triennale per la prevenzione della corruzione e della trasparenza/Piano triennale per la prevenzione della corruzione e della trasparenza/All_6_Flussi_informativi_PIAO_20242026.pdf'
+2024-04-23 14:15:07,357 - RomaTrasparenteJob - ERROR - An error occurred: [Errno 2] No such file or directory: 'COMUNE DI ROMA/AMMINISTRAZIONE TRASPARENTE/Piano triennale per la prevenzione della corruzione e della trasparenza/Piano triennale per la prevenzione della corruzione e della trasparenza/All_7_Check_list_Antiriciclaggio_PIAO_2024.pdf'
