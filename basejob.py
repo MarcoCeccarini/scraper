@@ -7,6 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.service import Service
+from selenium.common.exceptions import ElementClickInterceptedException
 from dotenv import load_dotenv
 import os
 import csv
@@ -54,7 +55,7 @@ class BaseJob:
         file_handler.setLevel(logging.ERROR)
 
         # Create formatter
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(pathname)s:%(lineno)d- %(levelname)s - %(message)s')
         console_handler.setFormatter(formatter)
         file_handler.setFormatter(formatter)
 
@@ -83,5 +84,8 @@ class BaseJob:
 
     def run(self):
         pass
+
+
+    
       
 

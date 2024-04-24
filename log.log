@@ -200,3 +200,774 @@
 2024-04-23 14:15:05,575 - RomaTrasparenteJob - ERROR - An error occurred: [Errno 2] No such file or directory: 'COMUNE DI ROMA/AMMINISTRAZIONE TRASPARENTE/Piano triennale per la prevenzione della corruzione e della trasparenza/Piano triennale per la prevenzione della corruzione e della trasparenza/All_3_Registro_e_valutazione_rischi_Appalti_2024.pdf'
 2024-04-23 14:15:06,947 - RomaTrasparenteJob - ERROR - An error occurred: [Errno 2] No such file or directory: 'COMUNE DI ROMA/AMMINISTRAZIONE TRASPARENTE/Piano triennale per la prevenzione della corruzione e della trasparenza/Piano triennale per la prevenzione della corruzione e della trasparenza/All_6_Flussi_informativi_PIAO_20242026.pdf'
 2024-04-23 14:15:07,357 - RomaTrasparenteJob - ERROR - An error occurred: [Errno 2] No such file or directory: 'COMUNE DI ROMA/AMMINISTRAZIONE TRASPARENTE/Piano triennale per la prevenzione della corruzione e della trasparenza/Piano triennale per la prevenzione della corruzione e della trasparenza/All_7_Check_list_Antiriciclaggio_PIAO_2024.pdf'
+2024-04-24 10:24:20,016 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:130- ERROR - Dao.create_doc() missing 1 required positional argument: 'id_struttura'
+2024-04-24 11:12:47,863 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:60- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 11:22:13,513 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:61- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 11:24:48,327 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:61- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 11:33:51,572 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:77- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 11:37:23,578 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:78- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 11:40:55,586 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:79- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 11:47:25,604 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:79- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 11:49:02,489 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:79- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 11:55:15,996 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:79- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 11:55:24,275 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:41- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+ ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 12:01:27,256 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:80- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 12:04:59,529 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:82- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 12:14:38,790 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:79- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 12:14:50,680 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:79- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 12:15:02,501 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:79- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 12:15:14,283 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:79- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 12:15:26,068 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:79- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 12:15:38,007 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:79- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 12:15:49,783 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\RomaAlboJob.py:79- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 12:31:06,655 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:77- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 12:31:18,511 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:77- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 12:31:30,245 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:77- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 12:31:55,221 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:77- ERROR - Message: element click intercepted: Element <button title="Visualizza ... con Repertorio 2023/584151" type="button" class="btn btn-link operazioni">Dettaglio</button> is not clickable at point (914, 49). Other element would receive the click: <div class="Header-toggle Grid-cell" role="navigation" aria-label="Apri il Menu">...</div>
+  (Session info: chrome=124.0.6367.61)
+Stacktrace:
+	GetHandleVerifier [0x0050C113+48259]
+	(No symbol) [0x0049CA41]
+	(No symbol) [0x00390A17]
+	(No symbol) [0x003D69EC]
+	(No symbol) [0x003D4E82]
+	(No symbol) [0x003D2CEB]
+	(No symbol) [0x003D22E7]
+	(No symbol) [0x003C7389]
+	(No symbol) [0x003F0D9C]
+	(No symbol) [0x003C6E25]
+	(No symbol) [0x003F1034]
+	(No symbol) [0x00409B9C]
+	(No symbol) [0x003F0B36]
+	(No symbol) [0x003C570D]
+	(No symbol) [0x003C62CD]
+	GetHandleVerifier [0x007C6533+2908323]
+	GetHandleVerifier [0x00803B4B+3159739]
+	GetHandleVerifier [0x005A505B+674763]
+	GetHandleVerifier [0x005AB21C+699788]
+	(No symbol) [0x004A6244]
+	(No symbol) [0x004A2298]
+	(No symbol) [0x004A242C]
+	(No symbol) [0x00494BB0]
+	BaseThreadInitThunk [0x76EE7BA9+25]
+	RtlInitializeExceptionChain [0x77E1BE3B+107]
+	RtlClearBits [0x77E1BDBF+191]
+
+2024-04-24 15:53:10,256 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:59- ERROR - ElementClickInterceptedException occurred. Retrying attempt {retries}/{max_retries}
+2024-04-24 15:58:54,688 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 15:59:30,867 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 15:59:48,511 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:00:28,006 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:00:42,692 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:00:54,958 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:01:21,941 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:01:33,090 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:01:44,209 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:01:55,407 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:02:07,597 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:02:45,441 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:02:56,568 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:03:07,698 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:03:19,911 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:03:25,119 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/3
+2024-04-24 16:03:57,006 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:04:08,105 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:04:19,248 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:04:30,362 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:04:41,478 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:04:53,683 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:05:26,283 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:05:37,407 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:05:48,523 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:09:35,538 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:09:40,615 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/3
+2024-04-24 16:09:45,620 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 3/3
+2024-04-24 16:11:45,602 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:11:56,782 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:12:07,900 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:12:19,056 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:12:25,176 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/3
+2024-04-24 16:12:37,389 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:13:14,770 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:13:25,910 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:13:37,073 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:13:48,426 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:13:59,551 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:14:05,629 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/3
+2024-04-24 16:14:16,795 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:14:22,880 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/3
+2024-04-24 16:14:35,114 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:14:41,205 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/3
+2024-04-24 16:15:13,169 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:15:24,290 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:15:35,444 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:15:46,558 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:15:57,691 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:16:08,878 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:16:20,034 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:16:26,111 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/3
+2024-04-24 16:16:37,267 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:16:43,366 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/3
+2024-04-24 16:16:55,625 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:17:27,971 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:17:39,121 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:17:50,280 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:18:01,400 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:18:12,565 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:18:23,718 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:18:35,187 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:18:41,281 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/3
+2024-04-24 16:18:52,438 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/3
+2024-04-24 16:18:58,523 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/3
+2024-04-24 16:19:04,603 - RomaAlboJob - c:\Users\CeccariniMarco\git\pyton\romaalbojob.py:60- ERROR - ElementClickInterceptedException occurred. Retrying attempt 3/3
+2024-04-24 17:02:14,604 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/5
+2024-04-24 17:05:44,511 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/5
+2024-04-24 17:06:02,135 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/5
+2024-04-24 17:06:28,257 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 3/5
+2024-04-24 17:11:21,829 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/5
+2024-04-24 17:11:31,417 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/5
+2024-04-24 17:11:42,908 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 3/5
+2024-04-24 17:11:50,602 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 4/5
+2024-04-24 17:40:37,644 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/5
+2024-04-24 17:40:47,695 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/5
+2024-04-24 17:40:59,302 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 3/5
+2024-04-24 17:41:20,062 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 4/5
+2024-04-24 17:41:41,093 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 5/5
