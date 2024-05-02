@@ -971,3 +971,65 @@ Stacktrace:
 2024-04-24 17:40:59,302 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 3/5
 2024-04-24 17:41:20,062 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 4/5
 2024-04-24 17:41:41,093 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 5/5
+2024-04-29 09:23:09,490 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/5
+2024-04-29 09:23:14,497 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/5
+2024-04-29 09:23:19,501 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 3/5
+2024-04-29 09:23:24,505 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 4/5
+2024-04-29 09:23:29,509 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:50- ERROR - ElementClickInterceptedException occurred. Retrying attempt 5/5
+2024-04-29 10:17:57,380 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:54- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/5
+2024-04-29 10:18:02,395 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:54- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/5
+2024-04-29 10:18:07,403 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:54- ERROR - ElementClickInterceptedException occurred. Retrying attempt 3/5
+2024-04-29 10:18:12,417 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:54- ERROR - ElementClickInterceptedException occurred. Retrying attempt 4/5
+2024-04-29 10:18:17,432 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:54- ERROR - ElementClickInterceptedException occurred. Retrying attempt 5/5
+2024-04-29 10:18:43,275 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:54- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/5
+2024-04-29 10:18:48,284 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:54- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/5
+2024-04-29 10:18:53,299 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:54- ERROR - ElementClickInterceptedException occurred. Retrying attempt 3/5
+2024-04-29 10:18:58,312 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:54- ERROR - ElementClickInterceptedException occurred. Retrying attempt 4/5
+2024-04-29 10:19:24,279 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:54- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/5
+2024-04-29 10:20:42,874 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:54- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/5
+2024-04-29 10:20:47,892 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:54- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/5
+2024-04-29 10:20:52,908 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:54- ERROR - ElementClickInterceptedException occurred. Retrying attempt 3/5
+2024-04-29 14:54:00,267 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:144- ERROR - An error occurred: HTTPSConnectionPool(host='www.comune.roma.it', port=443): Read timed out. (read timeout=None)
+2024-04-29 17:02:12,054 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:143- ERROR - An error occurred: syntax error at or near "*"
+LINE 1: DELETE * FROM documenti WHERE contenuto = 'Estratto_proclama...
+               ^
+
+2024-04-29 17:02:12,525 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:143- ERROR - An error occurred: current transaction is aborted, commands ignored until end of transaction block
+
+2024-04-29 17:02:13,034 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:143- ERROR - An error occurred: current transaction is aborted, commands ignored until end of transaction block
+
+2024-04-29 17:02:13,537 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:143- ERROR - An error occurred: current transaction is aborted, commands ignored until end of transaction block
+
+2024-04-29 17:02:14,098 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:143- ERROR - An error occurred: current transaction is aborted, commands ignored until end of transaction block
+
+2024-04-29 17:02:14,638 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:143- ERROR - An error occurred: current transaction is aborted, commands ignored until end of transaction block
+
+2024-04-29 17:02:15,290 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:143- ERROR - An error occurred: current transaction is aborted, commands ignored until end of transaction block
+
+2024-04-29 17:02:15,902 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:143- ERROR - An error occurred: current transaction is aborted, commands ignored until end of transaction block
+
+2024-04-29 17:02:16,435 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:143- ERROR - An error occurred: current transaction is aborted, commands ignored until end of transaction block
+
+2024-04-29 17:02:16,878 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:143- ERROR - An error occurred: current transaction is aborted, commands ignored until end of transaction block
+
+2024-04-29 17:02:17,379 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:143- ERROR - An error occurred: current transaction is aborted, commands ignored until end of transaction block
+
+2024-04-29 17:02:17,929 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:143- ERROR - An error occurred: current transaction is aborted, commands ignored until end of transaction block
+
+2024-04-29 17:02:18,611 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:143- ERROR - An error occurred: current transaction is aborted, commands ignored until end of transaction block
+
+2024-05-02 15:43:42,926 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:73- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/5
+2024-05-02 15:43:47,953 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:73- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/5
+2024-05-02 15:43:52,978 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:73- ERROR - ElementClickInterceptedException occurred. Retrying attempt 3/5
+2024-05-02 15:43:58,003 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:73- ERROR - ElementClickInterceptedException occurred. Retrying attempt 4/5
+2024-05-02 15:44:03,025 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:73- ERROR - ElementClickInterceptedException occurred. Retrying attempt 5/5
+2024-05-02 15:46:31,712 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:73- ERROR - ElementClickInterceptedException occurred. Retrying attempt 1/5
+2024-05-02 15:46:36,750 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:73- ERROR - ElementClickInterceptedException occurred. Retrying attempt 2/5
+2024-05-02 15:46:41,786 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:73- ERROR - ElementClickInterceptedException occurred. Retrying attempt 3/5
+2024-05-02 15:46:46,815 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:73- ERROR - ElementClickInterceptedException occurred. Retrying attempt 4/5
+2024-05-02 15:46:51,847 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:73- ERROR - ElementClickInterceptedException occurred. Retrying attempt 5/5
+2024-05-02 16:15:00,864 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:158- ERROR - An error occurred: strptime() argument 1 must be str, not list
+2024-05-02 16:15:42,892 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:158- ERROR - An error occurred: strptime() argument 1 must be str, not list
+2024-05-02 16:18:22,170 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:158- ERROR - An error occurred: time data ' 22/11/2021' does not match format '%d/%m/%Y'
+2024-05-02 17:21:42,990 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:174- ERROR - An error occurred: [Errno 2] No such file or directory: 'COMUNE DI ROMA/AMMINISTRAZIONE TRASPARENTE/Titolari di incarichi politici, di amministrazione, di direzione o di governo/Atto di nomina proclamazione e durata dell’incarico o del mandato elettivo/Estratto_proclamazione_del_Sindaco.pdf'
+2024-05-02 17:21:50,034 - RomaTrasparenteJob - c:\Users\CeccariniMarco\git\pyton\romatrasparentejob.py:174- ERROR - An error occurred: [Errno 2] No such file or directory: 'COMUNE DI ROMA/AMMINISTRAZIONE TRASPARENTE/Titolari di incarichi politici, di amministrazione, di direzione o di governo/Atto di nomina proclamazione e durata dell’incarico o del mandato elettivo/rendiconto_red_gualtieri_1.pdf'

@@ -54,9 +54,10 @@ class Dao:
         
             id_struttura = cursor.fetchone()[0] + 1
 
-            sql = f"""INSERT INTO struttura(id, sottosezione_lv1, sottosezione_lv2, id_sezione) VALUES('{id_struttura}', '{level1}', '{level2}', '{id_sezione}')"""
+            sql = """INSERT INTO struttura(id, sottosezione_lv1, sottosezione_lv2, id_sezione) 
+            VALUES( %s, %s, %s, %s)"""
 
-            cursor.execute(query=sql)
+            cursor.execute(query=sql, vars=(id_struttura, level1, level2, id_sezione))
                
 
     def get_doc(self, contenuto, link_pubblico):
@@ -72,7 +73,7 @@ class Dao:
             return cursor.fetchone()
         
     def delete_doc(self, contenuto, link_pubblico):
-        sql = """DELETE * FROM documenti WHERE contenuto = %s AND link_pubblico = %s;"""
+        sql = """DELETE FROM documenti WHERE contenuto = %s AND link_pubblico = %s;"""
         with self.conn.cursor() as cursor:
             cursor.execute(sql, (contenuto, link_pubblico))
         
